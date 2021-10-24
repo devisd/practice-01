@@ -1,0 +1,171 @@
+:root {
+  --light-color-text: #ffffff;
+  --dark-color-text: #000000;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* Header */
+
+.header {
+  color: var(--light-color-text);
+  background-color: chartreuse;
+}
+
+.header-logo {
+  font-family: PT Serif, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header-logo-text {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.header-contacts {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.header-contacts-link {
+  color: #ffffff;
+}
+
+.header-logo {
+  color: #ffffff;
+}
+
+.header-button {
+  font-family: inherit;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.header-nav-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.hero {
+  background-color: wheat;
+}
+.hero-title {
+  font-family: PT Serif, sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 1.3;
+  color: var(--light-color-text);
+}
+.hero-description {
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--light-color-text);
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--light-color-text);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.categories-link {
+  color: var(--dark-color-text);
+}
+.categories-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+}
+.directions {
+  background-color: rgba(112, 207, 41, 0.07);
+}
+.directions-title {
+  font-family: PT Serif, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--dark-color-text);
+}
+
+.directions-text {
+  font-size: 16px;
+  line-height: 1.3;
+  color: #333333;
+}
+
+/* suggestions */
+.suggestions {
+  background-color: gray;
+}
+.suggestions-title {
+  font-family: PT Serif, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.33;
+  color: var(--dark-color-text);
+}
+.suggestions-link {
+  color: var(--light-color-text);
+}
+.suggestions-sub-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--light-color-text);
+}
+.suggestions-price {
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--light-color-text);
+}
+/* MAP */
+.map-title {
+  font-family: PT Serif, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--dark-color-text);
+}
+
+/* About */
+.about-title {
+  font-family: PT Serif, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.33;
+  color: var(--dark-color-text);
+}
+.about-description {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333333;
+}
