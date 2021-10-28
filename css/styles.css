@@ -3,6 +3,8 @@
   --dark-color-text: #000000;
 }
 
+/* Спец.класс для скрытия заголовка */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -17,6 +19,8 @@
   overflow: hidden;
 }
 
+/* Общие стили */
+
 a {
   text-decoration: none;
 }
@@ -28,7 +32,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* Header */
+/* Шапка */
 
 .header {
   color: var(--light-color-text);
@@ -39,38 +43,42 @@ body {
   font-family: PT Serif, sans-serif;
   font-weight: 700;
   font-size: 20px;
+  line-height: 1.3;
 }
 
 .header-logo-text {
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
 }
 
 .header-contacts {
   font-weight: 700;
   font-size: 18px;
-  line-height: 130%;
+  line-height: 1.3;
 }
 
 .header-contacts-link {
-  color: #ffffff;
+  color: var(--light-color-text);
 }
 
 .header-logo {
-  color: #ffffff;
+  color: var(--light-color-text);
 }
 
 .header-button {
   font-family: inherit;
-  color: #ffffff;
+  color: var(--light-color-text);
   background-color: transparent;
 }
 
 .header-nav-link {
   font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
+  line-height: 1.19;
+  color: var(--light-color-text);
 }
+
+/* Герой */
+
 .hero {
   background-color: wheat;
 }
@@ -95,14 +103,20 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+/* Виды туров */
+
 .categories-link {
   color: var(--dark-color-text);
 }
 .categories-description {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.18;
 }
+
+/* Основные направления деятельности */
+
 .directions {
   background-color: rgba(112, 207, 41, 0.07);
 }
