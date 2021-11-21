@@ -18,34 +18,40 @@
     
     <header class="header">
         <div class="container">
-            <a href="./index.html" class="header-logo"><img src="./image/logo.svg" alt="Логотип компании" class="logo">
-                <p>Байкальский отдых</p>
-                <p class="logo-text">Турагентство</p>
-            </a>
-            <ul>
-                <li>
-                    <a href="tel:89243541540" class="header-contacts-link">8-924-3-541-540</a>
-                </li>
-                <li>
-                    <a href="mailto:baikalholiday@mail.ru" class="header-contacts-link">baikalholiday@mail.ru</a>
-                </li>
-            </ul>
-            <button type="button" class="header-button">Обратный звонок</button>
-            <nav>
-                <ul class="header-nav">
+            <div class="header-title">
+                <a href="./index.html" class="header-logo"><img src="./image/logo.svg" alt="Логотип компании" class="logo">
+                    <div class="header-logo-wrapper">
+                        <p>Байкальский отдых</p>
+                        <p class="logo-text">Турагентство</p>
+                    </div>
+                </a>
+            
+                <ul class="header-contacts">
                     <li>
+                        <a href="tel:89243541540" class="header-contacts-link">8-924-3-541-540</a>
+                    </li>
+                    <li>
+                        <a href="mailto:baikalholiday@mail.ru" class="header-contacts-link">baikalholiday@mail.ru</a>
+                    </li>
+                </ul>
+                <button type="button" class="header-button">Обратный звонок</button>
+            </div>
+
+            <nav class="header-nav">
+                <ul class="header-nav-title">
+                    <li class="header-link">
                         <a href="" class="header-nav-link">Бронирование</a>
                     </li>
-                    <li>
+                    <li class="header-link">
                         <a href="" class="header-nav-link">Экскурсии</a>
                     </li>
-                    <li>
+                    <li class="header-link">
                         <a href="" class="header-nav-link">Туры на Байкал</a>
                     </li>
-                    <li>
+                    <li class="header-link">
                         <a href="" class="header-nav-link">О Байкале</a>
                     </li>
-                    <li>
+                    <li class="header-link">
                         <a href="" class="header-nav-link">О нас</a>
                     </li>
                 </ul>
@@ -61,7 +67,11 @@
                 <h1 class="hero-title">Путешествия по Байкалу</h1>
                 <p class="hero-description">Туры по самому красивому месту России. Поехали с нами за новыми впечатлениями!</p>
                 <a href="" class="hero-button">подобрать тур</a>
-                <a class="hero-down" href=""></a>
+                <a class="hero-down" href="">
+                    <svg class="hero-icon-down" width="35" height="25">
+                        <use href="./image/icons.svg#arrow-down"></use>
+                    </svg>
+                </a>
             </div>
         </section>
         
@@ -342,14 +352,20 @@
             <div class="container">
                 <h2 class="about-title">О Байкале</h2>
                 <p class="about-description">Озеро Байкал – глубочайшее и древнейшее озеро планеты. Древние жители Прибайкалья
-                        называли его Священным морем и
-                        считали, что в Байкале нет дна, обожествляли и наделяли его мистическими свойствами. Именно здесь пронзительные
-                        чувства
-                        и скрытые способности человека находят выплеск.</p>
+                        называли его Священным морем и считали, что в Байкале нет дна, обожествляли и наделяли его мистическими свойствами. Именно здесь пронзительные
+                        чувства и скрытые способности человека находят выплеск.</p>
                 <p class="about-description">Познается что-то новое не только в природе, но и в самом себе. Многие посетившие Байкал
-                        люди утверждают, что озеро
-                        оказало большое влияние на их дальнейшую жизнь.</p>
-                <a class="about-link" href="">Читать подробней</a>
+                        люди утверждают, что озеро оказало большое влияние на их дальнейшую жизнь.</p>
+                <input class="about-checkbox is-hidden" type="checkbox" id="about-checkbox">
+                <p class="about-description is-hidden">Озеро Байкал – глубочайшее и древнейшее озеро планеты. Древние жители Прибайкалья
+                    называли его Священным морем и считали, что в Байкале нет дна, обожествляли и наделяли его мистическими свойствами. Именно здесь пронзительные
+                    чувства и скрытые способности человека находят выплеск.</p>
+                <p class="about-description is-hidden">Познается что-то новое не только в природе, но и в самом себе. Многие посетившие Байкал
+                    люди утверждают, что озеро оказало большое влияние на их дальнейшую жизнь.</p>
+                <label class="about-label" for="about-checkbox">
+                    <span class="label-on">Читать подробней</span>
+                    <span class="label-off">Свернуть</span>
+                </label> 
             </div>
         </section>
 
